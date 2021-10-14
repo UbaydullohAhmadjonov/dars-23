@@ -29,7 +29,6 @@ body{
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .nav_list{
@@ -39,59 +38,34 @@ body{
 .nav_link{
     margin: 10px;
     color: black;
-    font-weight: bold;
     font-size: 20px;
+    transition: .7s;
 }
-
+.nav_link:hover{
+    color: orangered;
+}
 .nav_title{
     font-size: 30px;
+    margin-right: 200px;
+}
+header{
+    background-image: url(/img/BG\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.qoraqiz_title{
+    margin-top: 30px;
+    font-size: 60px;
+    color: black;
+    width: 600px;
 }
 
-.nav_toggle{
-    display: none;
-    padding: 10px 20px;
-}
-@media (max-width: 1160px){
-    .container{
-        width: 1000px;
-        margin: 0 auto;
-    }
-}
-@media (max-width: 1020px){
-    .container{
-        width: 900px;
-        margin: 0 auto;
-    }
-}
-@media (max-width: 920px){
-    .container{
-        width: 800px;
-        margin: 0 auto;
-    }
-}
-@media (max-width: 820px){
-    .container{
-        width: 700px;
-        margin: 0 auto;
-    }
+.qoraqiz_text{
+    margin: 20px;
+    font-size: 21px;
+    width: 580px;
+    line-height: 30px;
+    opacity: 0.7;
 }
 
-@media (max-width: 720px){
-    .container{
-        width: 600px;
-        margin: 0 auto;
-    }
-}
-@media (max-width: 620px){
-    .container{
-        width: 500px;
-        margin: 0 auto;
-    }
 
-    .nav_toggle{
-        display: block;
-    }
-    .nav_link{
-        display: none;
-    }
-}
