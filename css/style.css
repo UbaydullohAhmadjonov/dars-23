@@ -54,6 +54,7 @@ header{
     background-size: cover;
 }
 .qoraqiz_title{
+    padding-top: 200px;
     margin-top: 30px;
     font-size: 60px;
     color: black;
@@ -67,5 +68,35 @@ header{
     line-height: 30px;
     opacity: 0.7;
 }
+.form_control{
+    border: none;
+    padding: 10px;
+}
 
+.toggle{
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: orangered;
+}
 
+.qoraqiz_photo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    bottom: 500px;
+    left: 700px;
+    right: 100px;
+}
+
+.qoraqiz_rasm{
+    bottom: 300px;
+    left: 1000px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.abs{
+    position: absolute;
+}
