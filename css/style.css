@@ -85,18 +85,71 @@ header{
     width: 300px;
     height: 300px;
     bottom: 500px;
-    left: 700px;
-    right: 100px;
+    left: 600px;
+   
 }
 
 .qoraqiz_rasm{
-    bottom: 300px;
+    bottom: 500px;
     left: 1000px;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .abs{
     position: absolute;
+}
+
+.sec_item{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+.sec_yozu{
+    margin-left: 20px;
+}
+.sec_img{
+    width: 50px;
+    height: 50px;
+}
+.sec_subtext{
+    width: 270px;
+}
+
+
+.sec_list{
+    padding-top: 40px;
+}
+.sec_item{
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.section{
+    padding-top: 30px;
+    background-color: rgba(65, 62, 101, 1);
+    height: 500px;
+}
+
+.section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_title{
+    color: white;
+    font-size: 60px;
+    width: 600px;
+}
+
+.section_text{
+    color: gray;
+    width: 580px;
+    line-height: 30px;
+    font-size: 21px;
+    margin: 20px;
 }
